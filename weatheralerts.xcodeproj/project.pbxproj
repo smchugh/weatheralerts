@@ -13,6 +13,8 @@
 		C2820C5E1B91017000F889A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2820C5D1B91017000F889A4 /* Images.xcassets */; };
 		C2820C611B91017000F889A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2820C5F1B91017000F889A4 /* LaunchScreen.xib */; };
 		C2820C6D1B91017000F889A4 /* weatheralertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C6C1B91017000F889A4 /* weatheralertsTests.swift */; };
+		C2820C771B91027400F889A4 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2820C761B91027400F889A4 /* ApiKeys.plist */; };
+		C2820C791B91037800F889A4 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C781B91037800F889A4 /* ApiKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C2820C661B91017000F889A4 /* weatheralertsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatheralertsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2820C6B1B91017000F889A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2820C6C1B91017000F889A4 /* weatheralertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatheralertsTests.swift; sourceTree = "<group>"; };
+		C2820C761B91027400F889A4 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
+		C2820C781B91037800F889A4 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				C2820C5D1B91017000F889A4 /* Images.xcassets */,
 				C2820C5F1B91017000F889A4 /* LaunchScreen.xib */,
 				C2820C541B91017000F889A4 /* Supporting Files */,
+				C2820C761B91027400F889A4 /* ApiKeys.plist */,
+				C2820C781B91037800F889A4 /* ApiKeys.swift */,
 			);
 			path = weatheralerts;
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2820C5C1B91017000F889A4 /* Main.storyboard in Resources */,
+				C2820C771B91027400F889A4 /* ApiKeys.plist in Resources */,
 				C2820C611B91017000F889A4 /* LaunchScreen.xib in Resources */,
 				C2820C5E1B91017000F889A4 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +221,7 @@
 			files = (
 				C2820C591B91017000F889A4 /* ViewController.swift in Sources */,
 				C2820C571B91017000F889A4 /* AppDelegate.swift in Sources */,
+				C2820C791B91037800F889A4 /* ApiKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
