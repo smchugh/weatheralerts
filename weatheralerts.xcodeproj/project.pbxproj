@@ -68,6 +68,7 @@
 		C2820C911B9108C500F889A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		C2820C931B911D6B00F889A4 /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
 		C2820C951B91315100F889A4 /* CoreLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationController.swift; sourceTree = "<group>"; };
+		C2820C971B913E8B00F889A4 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +133,7 @@
 				C2820C781B91037800F889A4 /* ApiKeys.swift */,
 				C2820C931B911D6B00F889A4 /* PushNotificationController.swift */,
 				C2820C951B91315100F889A4 /* CoreLocationController.swift */,
+				C2820C971B913E8B00F889A4 /* Waypoints.gpx */,
 			);
 			path = weatheralerts;
 			sourceTree = "<group>";

@@ -14,10 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var pushNotificationController:PushNotificationController?
-
+    var coreLocationController:CoreLocationController?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         self.pushNotificationController = PushNotificationController()
+        self.coreLocationController     = CoreLocationController()
         
         // Register for Push Notitications
         if application.applicationState != UIApplicationState.Background {
