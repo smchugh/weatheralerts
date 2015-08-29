@@ -15,6 +15,20 @@
 		C2820C6D1B91017000F889A4 /* weatheralertsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C6C1B91017000F889A4 /* weatheralertsTests.swift */; };
 		C2820C771B91027400F889A4 /* ApiKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2820C761B91027400F889A4 /* ApiKeys.plist */; };
 		C2820C791B91037800F889A4 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C781B91037800F889A4 /* ApiKeys.swift */; };
+		C2820C7D1B91080700F889A4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C7B1B91080700F889A4 /* Bolts.framework */; };
+		C2820C7E1B91080700F889A4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C7C1B91080700F889A4 /* Parse.framework */; };
+		C2820C801B91086600F889A4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C7F1B91086600F889A4 /* AudioToolbox.framework */; };
+		C2820C821B91087500F889A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C811B91087500F889A4 /* CFNetwork.framework */; };
+		C2820C841B91087E00F889A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C831B91087E00F889A4 /* CoreGraphics.framework */; };
+		C2820C861B91088800F889A4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C851B91088800F889A4 /* CoreLocation.framework */; };
+		C2820C881B91089300F889A4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C871B91089300F889A4 /* QuartzCore.framework */; };
+		C2820C8A1B91089E00F889A4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C891B91089E00F889A4 /* Security.framework */; };
+		C2820C8C1B9108A700F889A4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C8B1B9108A700F889A4 /* StoreKit.framework */; };
+		C2820C8E1B9108B000F889A4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C8D1B9108B000F889A4 /* SystemConfiguration.framework */; };
+		C2820C901B9108BA00F889A4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C8F1B9108BA00F889A4 /* libz.dylib */; };
+		C2820C921B9108C500F889A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C911B9108C500F889A4 /* libsqlite3.dylib */; };
+		C2820C941B911D6B00F889A4 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C931B911D6B00F889A4 /* PushNotificationController.swift */; };
+		C2820C961B91315100F889A4 /* CoreLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C951B91315100F889A4 /* CoreLocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +54,20 @@
 		C2820C6C1B91017000F889A4 /* weatheralertsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatheralertsTests.swift; sourceTree = "<group>"; };
 		C2820C761B91027400F889A4 /* ApiKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApiKeys.plist; sourceTree = "<group>"; };
 		C2820C781B91037800F889A4 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		C2820C7B1B91080700F889A4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		C2820C7C1B91080700F889A4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		C2820C7F1B91086600F889A4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C2820C811B91087500F889A4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2820C831B91087E00F889A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2820C851B91088800F889A4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2820C871B91089300F889A4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2820C891B91089E00F889A4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C2820C8B1B9108A700F889A4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C2820C8D1B9108B000F889A4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2820C8F1B9108BA00F889A4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C2820C911B9108C500F889A4 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C2820C931B911D6B00F889A4 /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
+		C2820C951B91315100F889A4 /* CoreLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2820C921B9108C500F889A4 /* libsqlite3.dylib in Frameworks */,
+				C2820C901B9108BA00F889A4 /* libz.dylib in Frameworks */,
+				C2820C8E1B9108B000F889A4 /* SystemConfiguration.framework in Frameworks */,
+				C2820C8C1B9108A700F889A4 /* StoreKit.framework in Frameworks */,
+				C2820C8A1B91089E00F889A4 /* Security.framework in Frameworks */,
+				C2820C881B91089300F889A4 /* QuartzCore.framework in Frameworks */,
+				C2820C861B91088800F889A4 /* CoreLocation.framework in Frameworks */,
+				C2820C841B91087E00F889A4 /* CoreGraphics.framework in Frameworks */,
+				C2820C821B91087500F889A4 /* CFNetwork.framework in Frameworks */,
+				C2820C801B91086600F889A4 /* AudioToolbox.framework in Frameworks */,
+				C2820C7E1B91080700F889A4 /* Parse.framework in Frameworks */,
+				C2820C7D1B91080700F889A4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +103,7 @@
 		C2820C481B91017000F889A4 = {
 			isa = PBXGroup;
 			children = (
+				C2820C7A1B9107D500F889A4 /* Frameworks */,
 				C2820C531B91017000F889A4 /* weatheralerts */,
 				C2820C691B91017000F889A4 /* weatheralertsTests */,
 				C2820C521B91017000F889A4 /* Products */,
@@ -89,6 +130,8 @@
 				C2820C541B91017000F889A4 /* Supporting Files */,
 				C2820C761B91027400F889A4 /* ApiKeys.plist */,
 				C2820C781B91037800F889A4 /* ApiKeys.swift */,
+				C2820C931B911D6B00F889A4 /* PushNotificationController.swift */,
+				C2820C951B91315100F889A4 /* CoreLocationController.swift */,
 			);
 			path = weatheralerts;
 			sourceTree = "<group>";
@@ -116,6 +159,25 @@
 				C2820C6B1B91017000F889A4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2820C7A1B9107D500F889A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2820C911B9108C500F889A4 /* libsqlite3.dylib */,
+				C2820C8F1B9108BA00F889A4 /* libz.dylib */,
+				C2820C8D1B9108B000F889A4 /* SystemConfiguration.framework */,
+				C2820C8B1B9108A700F889A4 /* StoreKit.framework */,
+				C2820C891B91089E00F889A4 /* Security.framework */,
+				C2820C871B91089300F889A4 /* QuartzCore.framework */,
+				C2820C851B91088800F889A4 /* CoreLocation.framework */,
+				C2820C831B91087E00F889A4 /* CoreGraphics.framework */,
+				C2820C811B91087500F889A4 /* CFNetwork.framework */,
+				C2820C7F1B91086600F889A4 /* AudioToolbox.framework */,
+				C2820C7B1B91080700F889A4 /* Bolts.framework */,
+				C2820C7C1B91080700F889A4 /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2820C961B91315100F889A4 /* CoreLocationController.swift in Sources */,
+				C2820C941B911D6B00F889A4 /* PushNotificationController.swift in Sources */,
 				C2820C591B91017000F889A4 /* ViewController.swift in Sources */,
 				C2820C571B91017000F889A4 /* AppDelegate.swift in Sources */,
 				C2820C791B91037800F889A4 /* ApiKeys.swift in Sources */,
@@ -302,6 +366,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -348,9 +413,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27089e4e-aa0d-4e0f-89e9-f4ac7243bb5b";
 			};
 			name = Debug;
 		};
@@ -358,7 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = weatheralerts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -417,6 +493,7 @@
 				C2820C721B91017000F889A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2820C731B91017000F889A4 /* Build configuration list for PBXNativeTarget "weatheralertsTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +502,7 @@
 				C2820C751B91017000F889A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
