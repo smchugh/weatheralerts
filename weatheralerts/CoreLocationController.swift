@@ -67,6 +67,9 @@ class CoreLocationController : NSObject, CLLocationManagerDelegate {
                 
                 println("Location:  \(userInfo)")
                 
+                NSNotificationCenter.defaultCenter().postNotificationName(
+                    "LOCATION_AVAILABLE", object: nil, userInfo: userInfo
+                )
             }
         })
         

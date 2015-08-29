@@ -29,6 +29,7 @@
 		C2820C921B9108C500F889A4 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2820C911B9108C500F889A4 /* libsqlite3.dylib */; };
 		C2820C941B911D6B00F889A4 /* PushNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C931B911D6B00F889A4 /* PushNotificationController.swift */; };
 		C2820C961B91315100F889A4 /* CoreLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C951B91315100F889A4 /* CoreLocationController.swift */; };
+		C2820C991B91402D00F889A4 /* WeatherServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2820C981B91402D00F889A4 /* WeatherServiceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		C2820C931B911D6B00F889A4 /* PushNotificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationController.swift; sourceTree = "<group>"; };
 		C2820C951B91315100F889A4 /* CoreLocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreLocationController.swift; sourceTree = "<group>"; };
 		C2820C971B913E8B00F889A4 /* Waypoints.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Waypoints.gpx; sourceTree = "<group>"; };
+		C2820C981B91402D00F889A4 /* WeatherServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherServiceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				C2820C931B911D6B00F889A4 /* PushNotificationController.swift */,
 				C2820C951B91315100F889A4 /* CoreLocationController.swift */,
 				C2820C971B913E8B00F889A4 /* Waypoints.gpx */,
+				C2820C981B91402D00F889A4 /* WeatherServiceController.swift */,
 			);
 			path = weatheralerts;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2820C991B91402D00F889A4 /* WeatherServiceController.swift in Sources */,
 				C2820C961B91315100F889A4 /* CoreLocationController.swift in Sources */,
 				C2820C941B911D6B00F889A4 /* PushNotificationController.swift in Sources */,
 				C2820C591B91017000F889A4 /* ViewController.swift in Sources */,
